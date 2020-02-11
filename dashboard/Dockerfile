@@ -1,2 +1,3 @@
-FROM gcr.io/google_containers/kubernetes-dashboard-amd64:v1.7.1
+FROM kubernetesui/dashboard:v2.0.0-rc5
+FROM kubernetesui/metrics-scraper:v1.0.3
 MAINTAINER 994328597@qq.com
